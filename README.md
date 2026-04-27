@@ -1,45 +1,60 @@
-# 🐞 Bug Reports
+# 📱 Mobile Test Suite Overview
 
-## Overview
-
-This folder contains documented software defects discovered during manual QA testing. Each bug report is written as a separate Markdown file and includes key details to help developers understand, reproduce, and fix the issue. These reports support communication across teams and improve overall product quality.
+This section includes structured test cases for mobile applications, grouped by quality assurance domains. Each module is organized into its own folder and covers accessibility, performance, adaptability, network behavior, authentication, and security validations across Android and iOS platforms.
 
 ---
 
-## Structure
-
-- Each bug is stored in an individual `.md` file
-- File names follow the format: `DEF-<ID>-<short-description>.md`
-- Reports cover metadata, reproduction steps, expected and actual results, and related resources
+> ⚠️ **Note**: These test cases are provided as reference samples. Different teams may follow different conventions for structure, naming, and scope. The examples here reflect one possible approach and are not intended to be universal.
 
 ---
 
-## Available Bug Reports
+## 📁 Modules
 
-| Defect ID | Title                                                                 | Status                  |
-|-----------|------------------------------------------------------------------------|--------------------------|
-| [DEF-217](DEF-217-SSO-login-redirect.md) | SSO login flow does not complete redirection             | Selected for Development |
-| [DEF-108](DEF-108-Mobile-app-logini-does-not-result-in-valid-session-token.md) | Mobile app login does not result in valid session token | Selected for Development |
-| [DEF-309](DEF-309-expired-password-login.md) | Expired password does not trigger recovery prompt        | Selected for Development |
+- ♿ [Accessibility](./Accessibility/) – screen reader support (TalkBack & VoiceOver), color contrast, UI structure
+- 📐 [Device Adaptivity](./Device%20Adaptivity/) – layout scaling, orientation behavior, resolution flexibility
+- 🔐 [Login Form](./Login_Form_Mobile/) – auth flow, validation, session lifecycle on mobile
+- 🌐 [Network Throttling](./Network%20Throttling/) – offline, airplane mode, unstable connections
+- ⚙️ [Performance](./Performance/) – battery, response time, memory load
+- 🛡️ [Security](./Security/) – platform-specific threats, data storage, secure inputs
+
+> 📘 Each module includes its own README with coverage details and testing strategy.
 
 ---
 
-## 🗂️ Bug Report Field Descriptions
+## 📊 Platform Targets
 
-| Field               | Description                                                             |
-|---------------------|-------------------------------------------------------------------------|
-| **Defect ID**       | Unique identifier for the issue, e.g., `DEF-217`                        |
-| **Title**           | Brief summary of the bug                                                |
-| **Status**          | Current progress: Open, Triaged, In Progress, Fixed, Closed             |
-| **Severity**        | Impact on product functionality: Minor, Major, Critical                 |
-| **Priority**        | Urgency for fixing: Low, Medium, High                                   |
-| **Environment**     | Platform or configuration where the bug occurred                        |
-| **Reproduction Steps** | Step-by-step instructions to reproduce the issue                 |
-| **Expected Result** | What the system should have done                                        |
-| **Actual Result**   | What the system did instead                                             |
-| **Screenshots/Logs**| Supporting evidence (if available)                                      |
-| **Related Test Cases** | Links to relevant manual or automated tests                        |
-| **Reported On**     | Date the bug was documented                                             |
-| **Reported By**     | Name or ID of the QA analyst who filed the bug                         |
-| **Assignee**        | Person responsible for fixing the issue                                 |
+- **Mobile OS:** Android 13+, iOS 16+  
+- **Devices:** phones, foldables, tablets
+
+---
+
+## 📐 Screen Resolutions
+
+- 375×667 – iPhone SE (2nd Gen)  
+- 412×915 – mid-range Android (Pixel 6)  
+- 820×1180 – tablets (iPad Mini, Tab S7)  
+- 812×1792 – Galaxy Z Fold (unfolded view)
+
+---
+
+## 🧪 Execution Strategy
+
+All test cases are designed for **manual execution**, structured for potential automation:
+
+- Step-by-step instructions with expected results  
+- Metadata (priority, estimate, type)  
+- Standalone test logic for easy integration
+
+---
+
+## ✅ Coverage Highlights
+
+- 🔁 Auth and session handling  
+- 🧠 Edge-case and fallback logic  
+- 🔐 Secure input and data protection  
+- ♿ Accessibility (mobile guidelines)  
+- ⚙️ Performance profiling  
+- 🌐 Network condition testing  
+- 📐 Multi-device layout behavior
+
 ---
