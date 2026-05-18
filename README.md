@@ -21,19 +21,9 @@ This repository showcases sample materials that reflect my approach to testing, 
 
 🔍 Passionate about crafting clean and predictable releases users can trust through thoughtful testing and continuous process improvement.
 
-- 📧 **Email:** egook@outlook.com  
-- 🔗 **LinkedIn:** [Ievgen Guk](https://www.linkedin.com/in/egooki)  
-- 📄 **Resume:** [Preview & Download PDF](https://1drv.ms/b/c/e66366535f32e7c7/EXD_G6gheA1PvgbJ70Sh7swBSeLztuoZ_MEryjcCtOYXzg)  
-- 📍 **Location:** Košice, Slovakia  
-- 🕒 **Time Zone:**  
-  - ❄️ **CET (UTC+1):** Central European Time - used in winter   
-  - ☀️ **CEST (UTC+2):** Central European Summer Time - applies during Daylight Saving Time *(from last Sunday in March to last Sunday in October)*  
-- 🌐 **Languages:**  
-  - ![UA](https://flagcdn.com/w20/ua.png) Ukrainian (native)  
-  - ![GB](https://flagcdn.com/w20/gb.png) English (upper intermediate | B2)  
-  - ~~russian (advanced)~~  
-  - ![SK](https://flagcdn.com/w20/sk.png) Slovak *(with serious help from dictionary, translator apps, and AI companions — and still questionable mutual understanding)*  
-
+- 📧 **Email:** theresa.abutu@gmail.com 
+- 🔗 **LinkedIn:** [Theresa Abutu](https://www.linkedin.com/in/theresa-abutu-/)  
+- 📍 **Location:** Lagos, Nigeria 
 ---
 
 ## 🧰 Skills & Tools
@@ -82,7 +72,7 @@ This repository showcases sample materials that reflect my approach to testing, 
 - 🧪 **Test Planning / Preparation / Techniques**  
   *Skills:* Test Cases · Test Design · Mobile Testing · Regression Testing 
 - 📊 **Quality Management Foundations**  
-  *Skills:* Quality Management · Project Leadership · Rally  
+  *Skills:* Quality Management · Project Leadership ·
 
 #### 🧪 Testing Techniques:
 - **Exploratory Testing**
@@ -95,15 +85,10 @@ This repository showcases sample materials that reflect my approach to testing, 
 - **Testing Throughout SDLC**
 - **Chrome DevTools · Web Performance**
 
-#### 🤖 Productivity & Tools:
-- **Career Essentials in GitHub**
-- **AI for Managers**
-- **Learning Jira**
-
 #### 📊 Project Management Series:
 - **Project Leadership**
 - **Planning for Successful Projects**
-- **Meeting Planning · Delegating Tasks · Strategic Thinking**
+- **Lean Six Sigma Black Belt
 
 #### 🛠️ Other:
 - **Behavior-Driven Development**
