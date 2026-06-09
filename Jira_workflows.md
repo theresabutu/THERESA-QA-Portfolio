@@ -9,7 +9,7 @@
 
 ## table of content
 
-## Зміст
+## ЗMTT
 - [✅ 1. Jira Tasks for Testing](#-1-jira-tasks-for-testing)
 - [🐞 2. Defect Lifecycle (Mermaid Diagram)](#-2-defect-lifecycle-mermaid-diagram)
   - [📋 Defect Status Transitions Table](#-defect-status-transitions-table)
