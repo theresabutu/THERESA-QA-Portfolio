@@ -21,7 +21,7 @@ These iOS test cases cover:
 ### ⛔ Out of Scope
 
 - **Android-specific layout behavior** – see [Android_Testing.md](./Android_Testing.md)  
-- **Login flow adaptivity** – see [Login_Edge_Cases_Mobile.md](../Login_Form/Login_Edge_Cases_Mobile.md)
+
 
 ---
 
