@@ -46,10 +46,10 @@ v3.4.2
 none
 
 ## Reported On: 
-July 30, 2025  
+October 30, 2025  
 
 ## Reported By: 
-Ievgen  
+Theresa Abutu  
 
 ## Assignee: 
 Not assigned
